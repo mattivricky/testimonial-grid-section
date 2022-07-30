@@ -99,3 +99,39 @@ p{
     margin-bottom: 20px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width: 1441px) {
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 150px auto;
+        width: 1200px;
+    }
+
+    .profile-container{
+        border-radius: 10px;
+        position: relative;
+        padding: 20px 35px;
+        margin: 12px;
+        text-align: left;
+    }
+
+    .daniel{
+        grid-column: span 2;
+    }
+
+    .jeanette{
+        grid-column-start: 1;
+    }
+
+    .patrick{
+        grid-column: span 2;
+    }
+    
+    .kira{
+        grid-column-start: 4;
+        grid-row: 1 / span 2;
+    }
+    
+}
