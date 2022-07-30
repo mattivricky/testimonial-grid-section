@@ -127,7 +127,7 @@ p{
     .main-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 150px auto;
+        margin: 100px auto;
         width: 1200px;
     }
 
